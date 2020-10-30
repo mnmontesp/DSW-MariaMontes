@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Estructura Básica de HTML5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HTML5</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="planing.html">Inicio</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Conceptos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="seccionUno.html">Sección uno</a></li>
+          <li><a href="seccionDos.html">Sección dos</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Recursos</a></li>
+      <li><a href="#">Autoevaluación</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+   <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+         <img src="img/logo.png">
+      </div>
+    </div>
+  </header>
+
+  <div style="color: #F0B429" class="jumbotron p-4 p-md-5 text-white rounded bg-warning">
+    <div class="col-md-23 px-0" >
+      <h1 class="display-4 font-italic" >Conceptos</h1>
+    </div>
+  </div>
+</div>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-12 blog-main">
+      
+
+      <div class="blog-post">
+        <h2 class="pb-4 mb-4  border-bottom">Elemento Raíz</h2>
+        <p class="blog-post-meta">Octubre 15, 2020 por <a href="#">Maria</a></p>
+
+        <p><strong>doctype html: </strong>Define que el documento esta bajo HTML5.</p>
+        <hr>
+        <p><strong>HTML: </strong>Representa la raíz de un documento HTML O XHTML.</p>
+       
+        <h2>Metadatos Documento</h2></br>
+        <p><strong>HEAD: </strong>Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, script y hojas de estilo.</p>
+        <p><strong>TITTLE: </strong>Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página.</p>
+        <p><strong>LINK: </strong>Usada para enlazar javascript y CSS externos en el documento HTML.</p>
+        <p><strong>META: </strong>Define los metadatos que  no pueden ser definidos usando.</p>
+        <p><strong>STYLE: </strong>Etiqueta de estilo utilizada para escribir scc en línea.</p>
+        <p><a href="https://balsamiq.com/products/mockups/">Balsamiq Mockups</a><br>
+        <a href="https://www.google.com/search?q=html&hl=es-419&sxsrf=ALeKk03kaW3yXMwH9Y75lfvrXgByH4tu8Q:1599530542525&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0l63Ou9jrAhUFzlkKHcQbAd4Q_AUoAXoECB8QAw&biw=1366&bih=657#imgrc=vGuMe0DLwq-zdM">Gloogle Images</a></p>
+        <h3>Scripting</h3></br>
+        <p><strong>Script: </strong>Define un script interno o ya sea un enlace externo. El lenguaje de programación es JavaScript.</p>
+        <p><strong>noScript: </strong>Define un contenido alternativo a mostrar cuando el navegador no soporta scripting.</p>
+
+        <h2>Secciones</h2><br>
+        <p><strong>Body: </strong>Representa el contenido prinicipal de un documento HTML. </p>
+        <p><strong>Section: </strong>Define una sección en un documento.</p>
+        <p><strong>Nav: </strong>Define una sección que solamente contiene enlaces de navegación.</p>
+        <p><strong>Article: </strong>Define contenido autónomo que podría existir independientemente del resto del contenido.</p>
+        <p><strong>Aside: </strong>Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido.</p>
+        <p><strong>H1,H2,H3,H4,H5,H6: </strong>Los elemento de cabecera  implementan seis niveles de cabeceras de documentos; h1 es la de mayor y h6 es la de menor importancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce.</p>
+        <p><strong>Header: </strong>Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.</p>
+        <p><strong>Footer: </strong>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.</p>
+        <p><strong>Address: </strong>Define una sección que contiene información de contacto.</p>
+        <p><strong>Main: </strong>Define el contenido principal o importante en el documento. Solamente existe un elemento <main> en el documento.</p>
+        
+      </div><!-- /.blog-post -->
+
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Arriba</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Siguiente</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<center>
+<footer class="blog-footer">
+  <p>Creado por <a href="#">Maria Nelida Montes</a></p>
+  <p>
+    <a href="https://getbootstrap.com/">Boostrap</a>
+  </p>
+</footer>
+</center>
+</body>
+</html>
