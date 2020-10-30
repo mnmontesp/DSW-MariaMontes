@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Estructura Básica de HTML5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HTML5</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="planing.html">Inicio</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Conceptos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="seccionUno.html">Sección uno</a></li>
+          <li><a href="seccionDos.html">Sección dos</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Recursos</a></li>
+      <li><a href="#">Autoevaluación</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+   <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+         <img src="img/logo.png">
+      </div>
+    </div>
+  </header>
+
+  <div style="color: #F0B429" class="jumbotron p-4 p-md-5 text-white rounded bg-warning">
+    <div class="col-md-23 px-0" >
+      <h1 class="display-4 font-italic" >Novedades de HTML5</h1>
+    </div>
+  </div>
+</div>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-12 blog-main">
+      
+
+      <div class="blog-post">
+        
+        <p class="blog-post-meta">Octubre 15, 2020 por <a href="#">Maria</a></p>
+
+        
+        <hr>
+        <p>Una de las novedades de HTML5 ha sido la posibilidad de tener mas de un H1 por documento.</p>
+        <p>Hasta la llegada de HTML5 el documento solo permitia un H1 por documento, pero con la nueva versión esto ha cambiado. La estructura basica de HTML5 se basa en el significado semántico, este permite el uso de H1 para cada una de las etiquetas semánticas básicas es decir section y article.</p>
+        <img src="img/section.jpg">
+        <p>KoraNet – Soluciones informáticas Estructura básica de una página en HTML5. Recuperado de https://koranets.net/estructura-basica-de-una-pagina-en-html5/</p>
+        
+        <h3><strong> HTML NAV </strong></h3></br>
+        <p>Representa la sección de una página cuyo proposito es proporcionar enlaces de navegación dentro del documento actual u otros, un ejemplo de ellos son las secciones de navegacion de menú, o tablas de contenido.</p>
+        <img src="img/img-dos.png">
+        
+        
+      </div><!-- /.blog-post -->
+
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Arriba</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Siguiente</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<center>
+<footer class="blog-footer">
+  <p>Creado por <a href="#">Maria Nelida Montes</a></p>
+  <p>
+    <a href="https://getbootstrap.com/">Boostrap</a>
+  </p>
+</footer>
+</center>
+</body>
+</html>
