@@ -1,16 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Estructura HTML</title>
+<head>
+  <title>Estructura Básica de HTML5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -25,14 +23,32 @@
           font-size: 3.5rem;
         }
       }
+
     </style>
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="container">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HTML5</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="planing.html">Inicio</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Conceptos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="seccionUno.html">Sección uno</a></li>
+          <li><a href="seccionDos.html">Sección dos</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Recursos</a></li>
+      <li><a href="#">Autoevaluación</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
    <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
@@ -41,34 +57,18 @@
     </div>
   </header>
 
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="planing.html">Inicio</a>
-      <a class="p-2 text-muted" href="conceptos.html">Conceptos</a>
-      <a class="p-2 text-muted" href="#">Recursos</a>
-      <a class="p-2 text-muted" href="#">Autoevaluación</a>
-      <a class="p-2 text-muted" href="#">Autor</a>
-    </nav>
-  </div>
-  
   <div style="color: #F0B429" class="jumbotron p-4 p-md-5 text-white rounded bg-warning">
-    <div class="col-md-6 px-0" >
-      <h1 class="display-4 font-italic">Estructura Básica de HTML</h1>
-     <b></b><br><br>
+    <div class="col-md-23 px-0" >
+      <h1 class="display-4 font-italic" >Estructura Básica de HTML5</h1>
     </div>
   </div>
-
-  <div class="row mb-2">
-   
-   
-  </div>
 </div>
+
 
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
      
-
       <div class="blog-post">
         <h2 class="blog-post-title">Objetivo</h2>
         <p class="blog-post-meta">Septiembre 16, 2020 por <a href="#">Maria</a></p>
@@ -107,8 +107,6 @@
       </div><!-- /.blog-post -->
 
 
-
-
      
       <nav class="blog-pagination">
         <a class="btn btn-outline-primary" href="#">Arriba</a>
@@ -138,7 +136,6 @@
   </div><!-- /.row -->
 
 </main><!-- /.container -->
-
 <footer class="blog-footer">
   <p>Creado por <a href="#">Maria Nelida Montes</a></p>
   <p>
