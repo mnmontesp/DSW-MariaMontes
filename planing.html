@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Estructura Básica de HTML5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HTML5</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="planing.html">Inicio</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Conceptos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="seccionUno.html">Sección uno</a></li>
+          <li><a href="seccionDos.html">Sección dos</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Recursos</a></li>
+      <li><a href="#">Autoevaluación</a></li>
+      <li><a href="autor.html">Autor</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+   <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+         <img src="img/logo.png">
+      </div>
+    </div>
+  </header>
+
+  <div style="color: #F0B429" class="jumbotron p-4 p-md-5 text-white rounded bg-warning">
+    <div class="col-md-23 px-0" >
+      <h1 class="display-4 font-italic" >Estructura Básica de HTML5</h1>
+    </div>
+  </div>
+</div>
+
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+     
+      <div class="blog-post">
+        <h2 class="blog-post-title">Objetivo</h2>
+        <p class="blog-post-meta">Septiembre 16, 2020 por <a href="#">Maria</a></p>
+
+        <p>Definir la estructura básica principal de un sitio web implementando su estructura asi como su materiales principales.</p>
+        <hr>
+        <p>Profundizar en cada uno de los elementos que componen un sitio Web básico de HTML.</p>
+        <p>Diseñar un sitio que cumpla con los requisitos indispensables de la estructura de HTML.</p>
+        <p>Implementar la estructura basica de HTML para el desarrollo del sitio web.</p>
+       
+       
+        <h2>Materiales</h2>
+        <p>Para el desarrollo del contenido de la página utilizamos el ambiente de Sublime Text, asi mismo la utilizacion página de Balsamiq Mockups donde se ejecutó la creación del Mockups index de la pagina.</p>
+        <p>De la misma forma de Google de obtuvo la imagen principal para el index.</p>
+        <p><a href="https://balsamiq.com/products/mockups/">Balsamiq Mockups</a><br>
+        <a href="https://www.google.com/search?q=html&hl=es-419&sxsrf=ALeKk03kaW3yXMwH9Y75lfvrXgByH4tu8Q:1599530542525&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0l63Ou9jrAhUFzlkKHcQbAd4Q_AUoAXoECB8QAw&biw=1366&bih=657#imgrc=vGuMe0DLwq-zdM">Gloogle Images</a></p>
+        <h3>Estructura</h3>
+        <p>En HTML existe una anotima o cuerpo que debemos conocer al momento de crear un sitio web. Lo primero que debemos conocer es el inicio de la etiqueta HTML dentro de esta etiqueta va las dos mas importantes quienes brindan la estructura principal del sitio el HEAD y BODY. En este contenido nos vamos a enfocar por la estructura basica en este caso lo que va dentro del body.</p>
+        <p>HEADER: El contenido de esta etiqueta corresponde a la cabecera, al titulo de nuestro sitio.<br>
+        DOCTYPE html: Esta etiqueta indica que el documento esta bajo el estandar HTML5.<br>
+        DIV: Esta etiqueta tambien divide contenido, con la diferencia que este se utiliza para aplicar clases y estilos.<br>
+        BODY: Esta etiqueta delimita el cuerpo del documento y contiene todo aquello que podemos ver en el navegador. <br>
+        HEAD: Esta etiqueta inidica el inicio de la cabecera del documento.<br>
+        META: Esta etiqueta define el tipo de codificacion del documento. <br>
+        TITLE: Esta etiqueta sirve para declarar el titulo del documento. Este titulo es el que aparece en el navegador.<br>
+        LINK: Se utiliza para llamar o enlazar documentos javascript y css externos.<br>
+        SECTION: Esta etiqueta engloba un seccion de texto, imagenes y otros elementos que tienen cierta relación entre ellos.<br>
+        ARTICLE: Esta etiqueta sirve para ordenar o dividir el contenido, suele estar dentro de la etiqueta de SECTION.<br>
+        MAIN: Esta etiqueta define el contenido principal del documento.<br>
+        H1,H2,H3,H4,H5,H6: Estas etiquetas son elementos de la cabecera, en este caso seis niveles de cabecera.</p>
+        <h3>Imagen Principal</h3>
+        <p>
+          <img src="https://mnmontesp.github.io/DSW-MariaMontes/img/index.png">
+        </p>
+        
+      </div><!-- /.blog-post -->
+
+
+     
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Arriba</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Siguiente</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="font-italic">Acerca <del></del></h4>
+        <p class="mb-0">HTML5 es la quinta versión del lenguaje básico de Word Wild Web.HTML5 especifica dos variantes de sintaxis para HTML: Una clasica HTML y una variante XHTML.
+          <a href="https://es.wikipedia.org/wiki/HTML5">Extraido de</a></p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Otro sitios</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://mnmontesp.github.io/DSW-MariaMontes/planing.html">GitHub</a></li>
+          
+        </ol>
+      </div>
+
+
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+<footer class="blog-footer">
+  <p>Creado por <a href="#">Maria Nelida Montes</a></p>
+  <p>
+    <a href="https://getbootstrap.com/">Boostrap</a>
+  </p>
+</footer>
+</body>
+</html>
